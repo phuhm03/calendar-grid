@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_calendar_grid_selector">
+
+    <TextView
+        android:id="@+id/tvDay"
+        style="@style/TextBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12ssp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="20" />
+
+    <View
+        android:id="@+id/indicatorToday"
+        android:layout_width="@dimen/_4sdp"
+        android:layout_height="@dimen/_4sdp"
+        android:background="@drawable/bg_indicator"
+        app:layout_constraintEnd_toEndOf="@+id/tvDay"
+        app:layout_constraintStart_toStartOf="@+id/tvDay"
+        app:layout_constraintTop_toBottomOf="@+id/tvDay" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

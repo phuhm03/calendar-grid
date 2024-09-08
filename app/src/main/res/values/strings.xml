@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">calendar-vertical</string>
+    <string name="txt_september_2021">September 2021</string>
+    <string name="txt_mon">Mon</string>
+    <string name="txt_tue">Tue</string>
+    <string name="txt_wed">Wed</string>
+    <string name="txt_thu">Thu</string>
+    <string name="txt_fri">Fri</string>
+    <string name="txt_sat">Sat</string>
+    <string name="txt_sun">Sun</string>
+</resources>
